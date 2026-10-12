@@ -1,0 +1,44 @@
+{
+  "name": "@local/dsh-joker-poker",
+  "version": "0.17.0",
+  "private": true,
+  "description": "Joker Poker: a Balatro-style roguelike poker card game in the DSH sidebar.",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "fonts/OFL.txt",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node test/rules.test.cjs && node test/sprites.test.cjs",
+    "shots": "node test/shots.cjs /tmp/jkp-shots",
+    "e2e": "node test/flow.cjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: joker-poker
+      name: '@local/dsh-joker-poker'

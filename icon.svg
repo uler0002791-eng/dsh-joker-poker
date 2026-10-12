@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="6" y="12" width="30" height="42" rx="5" fill="#fffdf7" stroke="#2b2d42" stroke-width="2.5" transform="rotate(-10 21 33)"/>
+  <rect x="26" y="8" width="30" height="42" rx="5" fill="#fffdf7" stroke="#2b2d42" stroke-width="2.5"/>
+  <text x="41" y="37" font-size="20" text-anchor="middle" fill="#d62839" font-family="sans-serif">♥</text>
+  <path d="M41 14l2 4 4.4.6-3.2 3 .8 4.4-4-2.1-4 2.1.8-4.4-3.2-3 4.4-.6z" fill="#e9a23b"/>
+</svg>
