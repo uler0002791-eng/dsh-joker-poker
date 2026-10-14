@@ -4,6 +4,10 @@
 
 当前版本：`0.17.0`。本项目受 Balatro 玩法启发，是独立的非官方项目，与原作及其开发者无隶属关系。
 
+## 宣传片
+
+[观看／下载小丑牌宣传片 v2（MP4）](https://github.com/uler0002791-eng/dsh-joker-poker/releases/download/promo-v2/joker-poker-promo-v2.mp4) · [Release 页面](https://github.com/uler0002791-eng/dsh-joker-poker/releases/tag/promo-v2)
+
 ## 功能
 
 - **150 张小丑牌**：独立效果与组合机制，配有代码绘制的像素图案。
