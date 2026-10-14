@@ -4,9 +4,29 @@
 
 当前版本：`0.17.0`。本项目受 Balatro 玩法启发，是独立的非官方项目，与原作及其开发者无隶属关系。
 
-## 宣传片
+![小丑牌 · DeepSeek Harness 插件封面](docs/images/cover.png)
 
-[观看／下载小丑牌宣传片 v2（MP4）](https://github.com/uler0002791-eng/dsh-joker-poker/releases/download/promo-v2/joker-poker-promo-v2.mp4) · [Release 页面](https://github.com/uler0002791-eng/dsh-joker-poker/releases/tag/promo-v2)
+## 游戏截图
+
+标题界面与对局：选择牌组，开始构筑。
+
+| 标题界面 | 游戏对局 |
+| --- | --- |
+| ![标题界面](docs/images/title.png) | ![游戏对局](docs/images/gameplay.png) |
+
+逐步计分与商店：叠加小丑牌效果，购买升级。
+
+| 计分过程 | 商店 |
+| --- | --- |
+| ![计分过程](docs/images/scoring.png) | ![商店](docs/images/shop.png) |
+
+收藏图鉴：150 张小丑牌与 15 种牌组。
+
+| 小丑牌图鉴 | 牌组图鉴 |
+| --- | --- |
+| ![小丑牌图鉴](docs/images/jokers.png) | ![牌组图鉴](docs/images/decks.png) |
+
+点击图片可查看大图。以上为游戏界面演示截图。
 
 ## 功能
 
